@@ -77,7 +77,7 @@ const generatePassword = () => {
     return " ";
   }
   const passwdInput = prompt(
-    "choose Passwd requirements L=Lowercase Char,U=Uppercase Char,N=numbers,S=Special "
+    "choose Passwd requirements L=Lowercase Char,U=Uppercase Char,N=numbers,S=Special you can choose multiple char e.g  LNUS "
   );
   const passwdTypes = [...passwdInput];
 
